@@ -9,6 +9,7 @@ end
 
 hello_t(%w(Tim Tom Jim)) do |name|
   if name.start_with?("T")
+    puts "Hi, #{name}"
 
 
 
